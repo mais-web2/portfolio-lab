@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: #fff; text-align: center; padding: 20px; }
+        nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+        section { padding: 20px; }
+        .projects { display: flex; flex-wrap: wrap; gap: 10px; }
+        .project { background: #f4f4f4; padding: 10px; flex: 1 1 calc(33% - 20px); box-sizing: border-box; }
+        footer { background: #333; color: #fff; text-align: center; padding: 10px; }
+        @media (max-width: 768px) {
+            .project { flex: 1 1 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            #aboutAbout</a>
+            #projectsProjects</a>
+            #contactContact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mais, a web development student. This is my portfolio website.</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: maisalsoub5@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mais Portfolio</p>
+    </footer>
+</body>
+</html>
